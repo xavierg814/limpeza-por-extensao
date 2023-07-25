@@ -43,6 +43,11 @@ labelpath.pack(anchor='w', padx=30)
 labelext = Label(text='Informe (com ponto . ) a extensão a ser deletada', font=('Helvetica', 12), foreground='brown')
 labelext.pack(anchor='w', padx=30)
 
+# Entry box #
+
+path_box = Entry(janela, background='white')
+path_box.pack(anchor='w')
+
 # Botão # 
 
 bt_iniciar = Button(janela, text='Iniciar', padding='8', command=limpar_extensao)
